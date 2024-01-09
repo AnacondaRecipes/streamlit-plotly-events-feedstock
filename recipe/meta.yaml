@@ -37,7 +37,6 @@ about:
   summary: Plotly chart component for Streamlit that also allows for events to bubble back up to Streamlit.
   description: |
     Plotly chart component for Streamlit that also allows for events to bubble back up to Streamlit.
-    Ever wanted to harness those awesome events from Plotly charts inside of Streamlit? So did I, so now you can!
   license: MIT
   license_file: LICENSE
   license_family: MIT
