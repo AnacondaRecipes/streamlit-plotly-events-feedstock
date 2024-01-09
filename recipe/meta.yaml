@@ -10,6 +10,8 @@ source:
   sha256: 1fe25dbf0e5d803aeb90253be04d7b395f5bcfdf3c654f96ff3c19424e7f9582
 
 build:
+  # skipping s390x because of missing streamlit
+  skip: True  # [s390x]
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   number: 0
 
